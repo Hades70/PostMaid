@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95E2584C24CE182300D4D44E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E2584B24CE182300D4D44E /* AppDelegate.m */; };
+		95E2584F24CE182300D4D44E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E2584E24CE182300D4D44E /* ViewController.m */; };
+		95E2585124CE182500D4D44E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E2585024CE182500D4D44E /* Assets.xcassets */; };
+		95E2585424CE182500D4D44E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E2585224CE182500D4D44E /* Main.storyboard */; };
+		95E2585724CE182500D4D44E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E2585624CE182500D4D44E /* main.m */; };
+		95E2586224CE182500D4D44E /* PostMaidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E2586124CE182500D4D44E /* PostMaidTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95E2585E24CE182500D4D44E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95E2583F24CE182300D4D44E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95E2584624CE182300D4D44E;
+			remoteInfo = PostMaid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95E2584724CE182300D4D44E /* PostMaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostMaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E2584A24CE182300D4D44E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95E2584B24CE182300D4D44E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95E2584D24CE182300D4D44E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95E2584E24CE182300D4D44E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95E2585024CE182500D4D44E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95E2585324CE182500D4D44E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95E2585524CE182500D4D44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E2585624CE182500D4D44E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95E2585824CE182500D4D44E /* PostMaid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PostMaid.entitlements; sourceTree = "<group>"; };
+		95E2585D24CE182500D4D44E /* PostMaidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostMaidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E2586124CE182500D4D44E /* PostMaidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostMaidTests.m; sourceTree = "<group>"; };
+		95E2586324CE182600D4D44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95E2584424CE182300D4D44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E2585A24CE182500D4D44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95E2583E24CE182300D4D44E = {
+			isa = PBXGroup;
+			children = (
+				95E2584924CE182300D4D44E /* PostMaid */,
+				95E2586024CE182500D4D44E /* PostMaidTests */,
+				95E2584824CE182300D4D44E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95E2584824CE182300D4D44E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95E2584724CE182300D4D44E /* PostMaid.app */,
+				95E2585D24CE182500D4D44E /* PostMaidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95E2584924CE182300D4D44E /* PostMaid */ = {
+			isa = PBXGroup;
+			children = (
+				95E2584A24CE182300D4D44E /* AppDelegate.h */,
+				95E2584B24CE182300D4D44E /* AppDelegate.m */,
+				95E2584D24CE182300D4D44E /* ViewController.h */,
+				95E2584E24CE182300D4D44E /* ViewController.m */,
+				95E2585024CE182500D4D44E /* Assets.xcassets */,
+				95E2585224CE182500D4D44E /* Main.storyboard */,
+				95E2585524CE182500D4D44E /* Info.plist */,
+				95E2585624CE182500D4D44E /* main.m */,
+				95E2585824CE182500D4D44E /* PostMaid.entitlements */,
+			);
+			path = PostMaid;
+			sourceTree = "<group>";
+		};
+		95E2586024CE182500D4D44E /* PostMaidTests */ = {
+			isa = PBXGroup;
+			children = (
+				95E2586124CE182500D4D44E /* PostMaidTests.m */,
+				95E2586324CE182600D4D44E /* Info.plist */,
+			);
+			path = PostMaidTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95E2584624CE182300D4D44E /* PostMaid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E2586624CE182600D4D44E /* Build configuration list for PBXNativeTarget "PostMaid" */;
+			buildPhases = (
+				95E2584324CE182300D4D44E /* Sources */,
+				95E2584424CE182300D4D44E /* Frameworks */,
+				95E2584524CE182300D4D44E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostMaid;
+			productName = PostMaid;
+			productReference = 95E2584724CE182300D4D44E /* PostMaid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95E2585C24CE182500D4D44E /* PostMaidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95E2586924CE182600D4D44E /* Build configuration list for PBXNativeTarget "PostMaidTests" */;
+			buildPhases = (
+				95E2585924CE182500D4D44E /* Sources */,
+				95E2585A24CE182500D4D44E /* Frameworks */,
+				95E2585B24CE182500D4D44E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95E2585F24CE182500D4D44E /* PBXTargetDependency */,
+			);
+			name = PostMaidTests;
+			productName = PostMaidTests;
+			productReference = 95E2585D24CE182500D4D44E /* PostMaidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95E2583F24CE182300D4D44E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = hades;
+				TargetAttributes = {
+					95E2584624CE182300D4D44E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					95E2585C24CE182500D4D44E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 95E2584624CE182300D4D44E;
+					};
+				};
+			};
+			buildConfigurationList = 95E2584224CE182300D4D44E /* Build configuration list for PBXProject "PostMaid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95E2583E24CE182300D4D44E;
+			productRefGroup = 95E2584824CE182300D4D44E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95E2584624CE182300D4D44E /* PostMaid */,
+				95E2585C24CE182500D4D44E /* PostMaidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95E2584524CE182300D4D44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E2585124CE182500D4D44E /* Assets.xcassets in Resources */,
+				95E2585424CE182500D4D44E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E2585B24CE182500D4D44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95E2584324CE182300D4D44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E2584F24CE182300D4D44E /* ViewController.m in Sources */,
+				95E2585724CE182500D4D44E /* main.m in Sources */,
+				95E2584C24CE182300D4D44E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E2585924CE182500D4D44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E2586224CE182500D4D44E /* PostMaidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95E2585F24CE182500D4D44E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95E2584624CE182300D4D44E /* PostMaid */;
+			targetProxy = 95E2585E24CE182500D4D44E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95E2585224CE182500D4D44E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95E2585324CE182500D4D44E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95E2586424CE182600D4D44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		95E2586524CE182600D4D44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		95E2586724CE182600D4D44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PostMaid/PostMaid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 77LJV23TBJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = PostMaid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hadesCo.PostMaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95E2586824CE182600D4D44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PostMaid/PostMaid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 77LJV23TBJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = PostMaid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hadesCo.PostMaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95E2586A24CE182600D4D44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 77LJV23TBJ;
+				INFOPLIST_FILE = PostMaidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hadesCo.PostMaidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostMaid.app/Contents/MacOS/PostMaid";
+			};
+			name = Debug;
+		};
+		95E2586B24CE182600D4D44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 77LJV23TBJ;
+				INFOPLIST_FILE = PostMaidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hadesCo.PostMaidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostMaid.app/Contents/MacOS/PostMaid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95E2584224CE182300D4D44E /* Build configuration list for PBXProject "PostMaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E2586424CE182600D4D44E /* Debug */,
+				95E2586524CE182600D4D44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E2586624CE182600D4D44E /* Build configuration list for PBXNativeTarget "PostMaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E2586724CE182600D4D44E /* Debug */,
+				95E2586824CE182600D4D44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95E2586924CE182600D4D44E /* Build configuration list for PBXNativeTarget "PostMaidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95E2586A24CE182600D4D44E /* Debug */,
+				95E2586B24CE182600D4D44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95E2583F24CE182300D4D44E /* Project object */;
+}
