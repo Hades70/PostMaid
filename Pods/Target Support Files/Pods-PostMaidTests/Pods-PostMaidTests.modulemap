@@ -1,0 +1,6 @@
+framework module Pods_PostMaidTests {
+  umbrella header "Pods-PostMaidTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

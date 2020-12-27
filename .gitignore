@@ -1,0 +1,8 @@
+.DS_Store
+./Pods
+
+.Trashes
+*.swp
+*.pbxuser
+DerivedData/
+

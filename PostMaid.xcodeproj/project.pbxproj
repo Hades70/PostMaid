@@ -3,16 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09486EE4D449AE91BFFE8549 /* Pods_PostMaid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E19FEB8009DD2DB7C48304 /* Pods_PostMaid.framework */; };
+		95BD805A2598569B00C94DA9 /* HttpClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BD80592598569B00C94DA9 /* HttpClientTests.m */; };
 		95E2584C24CE182300D4D44E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E2584B24CE182300D4D44E /* AppDelegate.m */; };
 		95E2584F24CE182300D4D44E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E2584E24CE182300D4D44E /* ViewController.m */; };
 		95E2585124CE182500D4D44E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E2585024CE182500D4D44E /* Assets.xcassets */; };
 		95E2585424CE182500D4D44E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E2585224CE182500D4D44E /* Main.storyboard */; };
 		95E2585724CE182500D4D44E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E2585624CE182500D4D44E /* main.m */; };
 		95E2586224CE182500D4D44E /* PostMaidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E2586124CE182500D4D44E /* PostMaidTests.m */; };
+		95E2586E24CE39BF00D4D44E /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E2586D24CE39BF00D4D44E /* HttpClient.m */; };
+		95E2587024CE75A100D4D44E /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E2586D24CE39BF00D4D44E /* HttpClient.m */; };
+		AEF33C469205C6F6F3E5F5D4 /* Pods_PostMaidTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A41964B4889EE51016A587 /* Pods_PostMaidTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12BAAF47B465E5EEC916209C /* Pods-PostMaidTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostMaidTests.debug.xcconfig"; path = "Target Support Files/Pods-PostMaidTests/Pods-PostMaidTests.debug.xcconfig"; sourceTree = "<group>"; };
+		388E4A81CA641F7B961FE0A9 /* Pods-PostMaidTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostMaidTests.release.xcconfig"; path = "Target Support Files/Pods-PostMaidTests/Pods-PostMaidTests.release.xcconfig"; sourceTree = "<group>"; };
+		601D70B246024015F15A85D2 /* Pods-PostMaid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostMaid.debug.xcconfig"; path = "Target Support Files/Pods-PostMaid/Pods-PostMaid.debug.xcconfig"; sourceTree = "<group>"; };
+		957E7E8E25984835003CA6FA /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		95BD80592598569B00C94DA9 /* HttpClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpClientTests.m; sourceTree = "<group>"; };
 		95E2584724CE182300D4D44E /* PostMaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostMaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E2584A24CE182300D4D44E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		95E2584B24CE182300D4D44E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +49,11 @@
 		95E2585D24CE182500D4D44E /* PostMaidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostMaidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E2586124CE182500D4D44E /* PostMaidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostMaidTests.m; sourceTree = "<group>"; };
 		95E2586324CE182600D4D44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E2586C24CE39BF00D4D44E /* HttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
+		95E2586D24CE39BF00D4D44E /* HttpClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpClient.m; sourceTree = "<group>"; };
+		96A41964B4889EE51016A587 /* Pods_PostMaidTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostMaidTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E19FEB8009DD2DB7C48304 /* Pods_PostMaid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostMaid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62CF66F6EFD7A8382DDC8CB /* Pods-PostMaid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostMaid.release.xcconfig"; path = "Target Support Files/Pods-PostMaid/Pods-PostMaid.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09486EE4D449AE91BFFE8549 /* Pods_PostMaid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,18 +69,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF33C469205C6F6F3E5F5D4 /* Pods_PostMaidTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52738098516194BA4C918439 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5E19FEB8009DD2DB7C48304 /* Pods_PostMaid.framework */,
+				96A41964B4889EE51016A587 /* Pods_PostMaidTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		803365D5AB07127972494235 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				601D70B246024015F15A85D2 /* Pods-PostMaid.debug.xcconfig */,
+				D62CF66F6EFD7A8382DDC8CB /* Pods-PostMaid.release.xcconfig */,
+				12BAAF47B465E5EEC916209C /* Pods-PostMaidTests.debug.xcconfig */,
+				388E4A81CA641F7B961FE0A9 /* Pods-PostMaidTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		95E2583E24CE182300D4D44E = {
 			isa = PBXGroup;
 			children = (
 				95E2584924CE182300D4D44E /* PostMaid */,
 				95E2586024CE182500D4D44E /* PostMaidTests */,
 				95E2584824CE182300D4D44E /* Products */,
+				803365D5AB07127972494235 /* Pods */,
+				52738098516194BA4C918439 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,11 +123,14 @@
 				95E2584B24CE182300D4D44E /* AppDelegate.m */,
 				95E2584D24CE182300D4D44E /* ViewController.h */,
 				95E2584E24CE182300D4D44E /* ViewController.m */,
+				957E7E8E25984835003CA6FA /* Types.h */,
 				95E2585024CE182500D4D44E /* Assets.xcassets */,
 				95E2585224CE182500D4D44E /* Main.storyboard */,
 				95E2585524CE182500D4D44E /* Info.plist */,
 				95E2585624CE182500D4D44E /* main.m */,
 				95E2585824CE182500D4D44E /* PostMaid.entitlements */,
+				95E2586C24CE39BF00D4D44E /* HttpClient.h */,
+				95E2586D24CE39BF00D4D44E /* HttpClient.m */,
 			);
 			path = PostMaid;
 			sourceTree = "<group>";
@@ -96,6 +138,7 @@
 		95E2586024CE182500D4D44E /* PostMaidTests */ = {
 			isa = PBXGroup;
 			children = (
+				95BD80592598569B00C94DA9 /* HttpClientTests.m */,
 				95E2586124CE182500D4D44E /* PostMaidTests.m */,
 				95E2586324CE182600D4D44E /* Info.plist */,
 			);
@@ -109,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95E2586624CE182600D4D44E /* Build configuration list for PBXNativeTarget "PostMaid" */;
 			buildPhases = (
+				C2B86B69FC9C9192905EA01D /* [CP] Check Pods Manifest.lock */,
 				95E2584324CE182300D4D44E /* Sources */,
 				95E2584424CE182300D4D44E /* Frameworks */,
 				95E2584524CE182300D4D44E /* Resources */,
+				BD295FC1C1422F2560550096 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95E2586924CE182600D4D44E /* Build configuration list for PBXNativeTarget "PostMaidTests" */;
 			buildPhases = (
+				1B1D2884CBC46C4729E12FB8 /* [CP] Check Pods Manifest.lock */,
 				95E2585924CE182500D4D44E /* Sources */,
 				95E2585A24CE182500D4D44E /* Frameworks */,
 				95E2585B24CE182500D4D44E /* Resources */,
@@ -196,6 +242,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B1D2884CBC46C4729E12FB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PostMaidTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD295FC1C1422F2560550096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PostMaid/Pods-PostMaid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PostMaid/Pods-PostMaid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PostMaid/Pods-PostMaid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B86B69FC9C9192905EA01D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PostMaid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95E2584324CE182300D4D44E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -203,6 +313,7 @@
 			files = (
 				95E2584F24CE182300D4D44E /* ViewController.m in Sources */,
 				95E2585724CE182500D4D44E /* main.m in Sources */,
+				95E2586E24CE39BF00D4D44E /* HttpClient.m in Sources */,
 				95E2584C24CE182300D4D44E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +322,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BD805A2598569B00C94DA9 /* HttpClientTests.m in Sources */,
+				95E2587024CE75A100D4D44E /* HttpClient.m in Sources */,
 				95E2586224CE182500D4D44E /* PostMaidTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +461,7 @@
 		};
 		95E2586724CE182600D4D44E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601D70B246024015F15A85D2 /* Pods-PostMaid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PostMaid/PostMaid.entitlements;
@@ -360,13 +474,14 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hadesCo.PostMaid;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hades.PostMaid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		95E2586824CE182600D4D44E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D62CF66F6EFD7A8382DDC8CB /* Pods-PostMaid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PostMaid/PostMaid.entitlements;
@@ -379,13 +494,14 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hadesCo.PostMaid;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hades.PostMaid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		95E2586A24CE182600D4D44E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12BAAF47B465E5EEC916209C /* Pods-PostMaidTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -406,6 +522,7 @@
 		};
 		95E2586B24CE182600D4D44E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 388E4A81CA641F7B961FE0A9 /* Pods-PostMaidTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

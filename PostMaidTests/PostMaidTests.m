@@ -7,31 +7,38 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "ViewController.h"
+
 
 @interface PostMaidTests : XCTestCase
+
+@property ViewController *vc;
+@property NSMutableDictionary *params;
+
 
 @end
 
 @implementation PostMaidTests
 
 - (void)setUp {
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    _vc = [[ViewController alloc] init];
+    _params = [[NSMutableDictionary alloc] init];
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testToJson{
+    [_params setValue:@"Bar" forKey:@"Foo"];
+    [_params setValue:@"World" forKey:@"Hello"];
+    NSData *result = [_vc toJson:_params];
+    NSString *testStr = [[NSString alloc] initWithData:result encoding:NSUTF8StringEncoding];
+    NSString *newStr = @"{\n  \"Foo\" : \"Bar\",\n  \"Hello\" : \"World\"\n}";
+    NSLog(@"%@", testStr);
+    NSLog(@"%@", newStr);
+    XCTAssert([testStr isEqualTo:newStr]);
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
 
 @end
